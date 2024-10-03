@@ -66,6 +66,18 @@ Son giriş yapan kullanıcıların giriş yaptığı ip bilgilerini ve çıkış
 track hack.me de Intro Logda indirdiğimiz *vpn dosyasının adını* dosya.ovpn olarak değiştirdik.
 Sanal bilgisayara atıp terminali cd Desktop yapıp masaüstünden ilgili dosya okumasını gerçekleştirildi.
 
+![less_komutu](https://github.com/user-attachments/assets/050a69d6-febe-477d-94a8-3559e7b49336)
 
+**less**: Dosyaları okumak için veya dosyanın içinde bir şey aramak istenirse ilgili  dosyayı sayfa sayfa görüntülenir. Boşluk tuşuna basıldığında bir sonraki sayfa görüntülenir.
 
+![wc_komutu](https://github.com/user-attachments/assets/fae1077c-8f9f-4e86-a10b-87185d5b6b71)
 
+Linux'ta wc (word count) komutu dosyada bulunan satır sayısını, kelime sayısını ve karakter sayısını çıktı olarak verir.
+
+![cut_komutu](https://github.com/user-attachments/assets/ca927bdd-e0bb-4966-bb95-117de0c6ca5c)
+
+**cut** komutu ile istediğin alanı sütununu(1 olarak) belirtip IP adresleri görüldü.
+
+![cut_komutu_sort_siralama](https://github.com/user-attachments/assets/7f21324c-e202-49fa-935c-4199767617ae)
+
+cut komutuna **|sort -n ** deyip IP adresleri sıralanır.
