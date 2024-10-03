@@ -80,4 +80,4 @@ Linux'ta wc (word count) komutu dosyada bulunan satır sayısını, kelime sayı
 
 ![cut_komutu_sort_siralama](https://github.com/user-attachments/assets/7f21324c-e202-49fa-935c-4199767617ae)
 
-cut komutuna **|sort -n ** deyip IP adresleri sıralanır.
+cut komutuna |sort -n  eklenip IP adresleri sıralanır.
