@@ -63,7 +63,7 @@ Son giriş yapan kullanıcıların giriş yaptığı ip bilgilerini ve çıkış
 
 ![dosya ovpn](https://github.com/user-attachments/assets/842fa7f3-1aa0-4c28-b4cd-260249da3b67)
 
-track hack.me de Intro Logda indirdiğimiz *vpn dosyasının adını* dosya.ovpn olarak değiştirdik.
+tryhack.me platformunda bulunan OpenVPN Access Detail olarak yer alan  ovpn dosyasını indirip *ovpn dosyasının kullanıcı adını* dosya.ovpn olarak değiştirdik.
 Sanal bilgisayara atıp terminali cd Desktop yapıp masaüstünden ilgili dosya okumasını gerçekleştirildi.
 
 ![less_komutu](https://github.com/user-attachments/assets/050a69d6-febe-477d-94a8-3559e7b49336)
