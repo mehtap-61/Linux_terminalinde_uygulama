@@ -23,7 +23,7 @@ uniq komutu, bir dosyadaki (orn. IP adresinin) yinelenen satırları silmektedir
 
 ![cut_komutu_M](https://github.com/user-attachments/assets/4a1481db-07b8-4651-b994-b6029984b7e4)
 
-- M ile (birinciden M'inci (dahil) bayta, karaktere veya alana kadar) tarihe ve saate  göre sort komutuyla küçükten büyüğe doğru sıralama yaptı.
+M ile (birinciden M'inci (dahil) bayta, karaktere veya alana kadar) tarihe ve saate  göre sort komutuyla küçükten büyüğe doğru sıralama yaptı.
 
 ![cut_komutu_sort_M__r_uniq_c](https://github.com/user-attachments/assets/519ee756-6d11-4526-9744-20d93adadd6b)
 
@@ -33,8 +33,8 @@ sort_M_r| uniq -c karakter listesini büyükten küçüğe doğru sıralama ger�
 s ile basla g ile bitirmek için yukarıda yer alan komut işlemi gerçekleşmiştir. İlgili kaçış için \ kullanarak yazım işlemi gerçekleşti.
 ![awk_komut_port__araştırma](https://github.com/user-attachments/assets/3ea2bb6e-24fb-4e61-8eb7-d16c08a720c2)
 
-awk komutu, kullanıcı tarafından sağlanan genişletilmiş düzenli ifadelerle her defasında bir satır olan bir dosya kümesini karşılaştırmak için kullanıcı tarafından sağlanan yönergeler kümesini kullanır. 
-Daha sonra eylemler, genişletilmiş düzenli ifadelerle eşleşen herhangi bir satır üzerinde gerçekleştirilir.
+awk ve sed komutları karmaşık metin işleme amacıyla kullanılmaktadır.
+awk belli sutünların işlenmesinde kullanılırken sed komutu metin düzenleme ve filtreleme yapmaktadır.
 awk komutunun örüntü araması grep komutundan daha genel ve kullanıcının giriş metni satırlarında birden çok işlem gerçekleştirmesini sağlar. 
 awk komut programlama dili derleme gerektirmez ve kullanıcının değişkenleri, sayısal işlevleri, dizgi işlevlerini ve mantıksal işleçleri kullanmasını sağlar.
 awk '$9 = 200' apache-1691435735822.log komutu ile ilgili portu (200 portu) araştırmak için kullanılmıştır.
